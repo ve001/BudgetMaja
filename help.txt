@@ -1,0 +1,18 @@
+<View key={index} style={styles.card}>
+                        <View style={[styles.cardInner, {backgroundColor: item.plus == 1 ? '#7aeb7a' : '#FF7F7F'}]}>
+                            <View style={styles.cardInnerLeft}>
+                            <Text>{item.expence_name}</Text>
+                            <Text>{item.expence_value}</Text>
+                            <Text>{item.id}</Text>
+                            <Text>{item.created_at}</Text>
+                            <Text>{item.plus == 1 ? "PLUS" : "MINUS"}</Text>
+                            </View>
+
+                            <View style={styles.cardInnerRight}>
+                                <TouchableOpacity onPress={() => deleteExpence(item.id)} style={styles.cardInnerRightButton}>
+                                    <Text><Feather name="trash" size={35} color="black" /></Text>
+                                </TouchableOpacity>
+                            </View>
+                            
+                        </View>
+                    </View>
