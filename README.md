@@ -1,5 +1,6 @@
 ![promoImage](https://github.com/ve001/BudgetMaja/blob/322ccd749309e4b6281be13492792fb69cf862a6/main%20image.png)
 
+# A first-level heading
 Your expense tracker app allows users to record and categorize their expenses. 
 It provides summaries of transactions, helping users manage their budgets effectively
 
